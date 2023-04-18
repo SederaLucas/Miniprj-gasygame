@@ -7,7 +7,6 @@ document.getElementById("entrerj2").addEventListener('click', function() {
     var nomj2 = prompt('entrer le nom du joueur 2');
     document.getElementById('Nomj2').innerHTML = nomj2;
 })
-// Tableau
 var tab = [
     [1, 1, 1],
     [0, 0, 0],
@@ -140,7 +139,6 @@ for(var elmt of position){
     }, false);
 }
 
-// Fonctions
 function moveTo(id1, id2) {
     var start = id1.split("-")[1].split("");
     var end = id2.split("-")[1].split("");
@@ -217,7 +215,7 @@ function isValid(id1, id2) {
 
 //fonction d'arrêt eto
 
-
+/*
 function isAlignedX(x){
     var compt = 0;
 
