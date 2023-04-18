@@ -211,11 +211,6 @@ function isValid(id1, id2) {
     return false;
 }
 
-
-
-//fonction d'arrêt eto
-
-/*
 function isAlignedX(x){
     var compt = 0;
 
