@@ -7,18 +7,17 @@ document.getElementById("entrerj2").addEventListener('click', function() {
     var nomj2 = prompt('entrer le nom du joueur 2');
     document.getElementById('Nomj2').innerHTML = nomj2;
 })
-// Tableau
-var tab = [
-    [1, 1, 1],
-    [0, 0, 0],
-    [2, 2, 2]
-];
 
 
 var position = document.querySelectorAll(".position");
 var turn = document.querySelector(".container");
 
 var player = "p1";
+var tab = [
+    [1, 1, 1],
+    [0, 0, 0],
+    [2, 2, 2]
+];
 
 for(var elmt of position){
     var temp,
